@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +9,6 @@
 
 body {
     font-family: "Helvetica Neue";
-
 
 }
 
@@ -19,22 +21,24 @@ body {
 .header-wrapper {
 
     height: 600px;
-    background: url(../img/header.png) no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/header.png) center;
+    background-size: cover;
 
     /*!* Text style for "Notify" *!*/
     /*color: #ffffff;*/
     /*!* Text style for "." *!*/
     /*color: #2ecc71;*/
 }
-.header-info p{
+
+.header-info p {
     color: #ffffff;
     line-height: 36px;
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 26px;
 }
-.header-info p:first-child{
+
+.header-info p:first-child {
     margin-top: 147px;
     font-family: Pacifico;
     font-size: 60px;
@@ -42,15 +46,16 @@ body {
     line-height: 20px;
     margin-bottom: 72px;
 }
-.header-info span{
+
+.header-info span {
     color: #2ecc71;
 }
 
-
-.icons{
+.icons {
 
 }
-.icon{
+
+.icon {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -62,30 +67,34 @@ body {
     opacity: 0.7;
     cursor: pointer;
 }
-.icon:first-child{
+
+.icon:first-child {
     margin-left: 0;
 }
+
 .icon img {
     width: 20px;
     height: 24px;
     opacity: 0.9;
 }
-.icon:hover{
+
+.icon:hover {
     background-color: #2ecc71;
     opacity: 1;
 }
 
-.order{
+.order {
     margin-bottom: 58px;
 }
 
-.order-info{
-    
+.order-info {
+
     /*border: 1px solid brown ;*/
     margin-top: 60px;
 
 }
-.big-icon{
+
+.big-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,11 +104,13 @@ body {
     margin: 0 auto 31px;
     border-radius: 50%;
 }
-.big-icon img{
+
+.big-icon img {
     width: 48px;
     height: 48px;
 }
-.text{
+
+.text {
 
     color: #848484;
     font-size: 16px;
@@ -107,7 +118,7 @@ body {
     line-height: 26px;
 }
 
-.raleway b{
+.raleway b {
     color: #222222;
     font-family: Raleway;
     font-size: 22px;
@@ -115,63 +126,62 @@ body {
     line-height: 18px;
     margin-bottom: 29px;
 }
+.center{
+    width: 80%; margin: 0 auto;
+}
 
-
-
-
-.order-video{
+.order-video {
     background-color: #e3e3e3;
     margin-top: 60px;
 
-
-
 }
-.video{
+
+.video {
     margin-top: 60px;
 }
-.form{
+
+.form {
     /* Style for "container" */
     position: relative;
     display: inline-block;
     width: 446px;
     height: 56px;
     border-radius: 15px;
-    border: 2px solid  #848484;
+    border: 2px solid #848484;
     background-color: #ffffff;
     margin-top: 29px;
-    padding-left: 12px;
     margin-bottom: 20px;
 
-
 }
 
-.green{
-    height: 100%;
-    width: 130px;
-    float: right;
-    border-radius: 12px;
-    background-color: #2ecc71;
-}
-input{
-    width: 281px;
-    height: 100%;
 
+
+input {
+    width: 286px;
+    height: 100%;
+    outline: none;
     color: #848484;
     font-family: "Helvetica Neue";
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
+    border-radius: 15px 0 0 15px;
     border: none;
+    padding-left: 5px;
 }
 
-.btn-form{
+
+.btn-form {
+    outline: none;
     position: absolute;
-    left: 292px;
-    top: 0;
+    left: 303px;
+    top: -2px;
     width: 141px;
-    height: 52px;
+    height: 55px;
     background-color: #2ecc71;
-border: none;
+    border: none;
+    border-radius:0 15px 15px 0;
+
 
     color: #ffffff;
     font-family: Raleway;
@@ -179,27 +189,31 @@ border: none;
     font-weight: 700;
     line-height: 18px;
 }
-.player{
+
+.player {
     margin-bottom: 145px;
 }
 
-
-
-.epilogue{
+.epilogue {
     background-color: #ffffff;
 }
-.text-epilogue{
+
+.text-epilogue {
     margin-top: 60px;
 }
 
-.jane{
-    margin-top:26px;
+.jane {
+    margin-top: 26px;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
     margin-bottom: 29px;
 }
-.say{
+.images img{
+    width: 90%;
+}
+
+.say {
     font-size: 24px;
     font-weight: 600;
     line-height: 24px;
@@ -207,17 +221,15 @@ border: none;
     margin-bottom: 21px;
 }
 
-
-.social{
+.social {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 
 }
 
-
-.social-btn{
+.social-btn {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 34px;
     height: 34px;
@@ -226,11 +238,12 @@ border: none;
     margin-left: 10px;
     cursor: pointer;
 }
-.social-btn:first-child{
+
+.social-btn:first-child {
     margin-left: 0;
 }
 
-.social-btn:hover{
+.social-btn:hover {
     background-color: #2ecc71;
 }
 
